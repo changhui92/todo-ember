@@ -1,0 +1,74 @@
+/******* Row *******/
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.row::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+/******* Nav *******/
+
+ul.navbar-nav {
+  flex-direction: row;
+  float: left;
+  margin-left: 0px;
+}
+
+nav.navbar.navbar-inverse.bg-primary {
+  border-radius: 5px;
+  width: 100%;
+  color: #ffffff;
+}
+
+a.navbar-brand {
+  color: white;
+  text-transform: uppercase;
+}
+
+li.nav-item,
+a.nav-link {
+  float: left;
+  text-transform: uppercase;
+  margin: 5px;
+  color: #ffffff;
+}
+
+button.btn {
+  /* float: right; */
+  margin-left: 5px;
+}
+
+/******   content    ******/
+
+.container {
+  width: 100%;
+}
+
+.input-group {
+  margin: 20px;
+}
+
+#inputName,
+#inputDateTime,
+#inputDesc {
+  margin-left: 10px;
+}
+
+/* Card */
+
+div.col-4 {
+  margin-bottom: 20px;
+}
+
+div.col-6.input {
+  margin-top: 10px;
+}
+
+div.cardButton {
+  float: right;
+}
